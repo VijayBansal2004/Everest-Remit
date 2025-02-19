@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Shield" xmlns="http://www.w3.org/2000/svg" width="358.62" height="189.64" viewBox="0 0 358.62 189.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e80000;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #00519b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 4.03 4.03;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #e80000;
+      }
+
+      .cls-5 {
+        opacity: .2;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-2" points="358.12 .5 304.54 13.97 323.82 24.37 358.12 .5"/>
+    <polygon class="cls-1" points="323.82 24.37 325.47 39.3 358.12 .5 323.82 24.37"/>
+    <polygon class="cls-2" points="329.7 27.29 325.47 39.3 358.12 .5 329.7 27.29"/>
+    <polygon class="cls-2" points="358.12 .5 329.7 27.29 345.96 38.23 358.12 .5"/>
+  </g>
+  <g class="cls-5">
+    <g>
+      <path class="cls-4" d="M90.57,80.95c-.58.32-1.16.64-1.74.97"/>
+      <path class="cls-3" d="M85.33,83.91c-18.1,10.36-41.04,25.06-62.49,43.41-56.31,48.16,1.77,82.72,85.67,47.27,82.49-34.85,154.69-72.56,208.2-129.41"/>
+      <path class="cls-4" d="M318.09,43.7c.45-.49.91-.98,1.36-1.47"/>
+    </g>
+  </g>
+</svg>

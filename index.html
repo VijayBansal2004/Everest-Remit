@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Essential CSS Files -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon_finto.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/semantic.min.css">
+        <link rel="stylesheet" href="assets/css/form-widget.css">
+
+        <!-- Title & Favicon -->
+        <title>Everest Remit</title>
+        <link rel="icon" type="image/png" href="assets/images/favicon.svg">
+    </head>
+    <body>
+        <!-- Start Preloader Area -->
+        <div class="preloader-area text-center position-fixed top-0 bottom-0 start-0 end-0" id="preloader">
+            <div class="loader position-absolute start-0 end-0">
+                <div class="wavy position-relative fw-light">
+                    <span class="d-inline-block"><img src="assets/images/favicon.svg" alt="favicon"></span>
+                    <span class="d-inline-block">E</span>
+                    <span class="d-inline-block">R</span>
+                    <!-- <span class="d-inline-block">T</span>
+                    <span class="d-inline-block">O</span> -->
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <div class="top-header-info">
+            <!-- Start Top Header Area -->
+            <!-- <div class="top-header-area bg-color-0c3a30">
+                <div class="container-fluid side-padding">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <ul class="left-side">
+                                <li><span>Smart Solution For Financial Needs</span></li>
+                                <li><a href="tel:0018085550148"><i class="flaticon-phone-call"></i> <b>Call:</b> +001 (808) 5550148</a></li>
+                                <li><a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#670f020b0b0827010e0913084904080a"><i class="flaticon-email-1"></i> <b>Mail:</b> <span class="__cf_email__" data-cfemail="86eee3eaeae9c6e0efe8f2e9a8e5e9eb">[email&#160;protected]</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <ul class="right-side">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li>
+                                    <div class="flag position-relative">
+                                        <img class="rounded-circle" src="assets/images/svg/flag.svg" alt="image">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>English</option>
+                                            <option value="1">Arabic</option>
+                                            <option value="2">Latin</option>
+                                            <option value="3">China</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- End Top Header Area -->
+
+            <!-- Start Navbar Area -->
+            <nav class="navbar navbar-expand-lg bg-color-ffffff" id="navbar">
+                <div class="container-fluid side-padding position-relative">
+                    <a class="navbar-brand logo-brand p-0" href="#home">
+                        <img src="assets/images/logo.svg" alt="image">
+                    </a>
+                    <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button"
+                        aria-controls="navbarOffcanvas">
+                        <span class="burger-menu">
+                            <span class="top-bar"></span>
+                            <span class="middle-bar"></span>
+                            <span class="bottom-bar"></span>
+                        </span>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+								<a class="nav-link" href="#home">
+                                    Home
+                                </a>
+                            </li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#how-it-works">
+                                    How It Works
+                                </a>
+                            </li>					
+							
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#features">
+                                    Features
+                                </a>
+                            </li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#about-us">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="others-options">
+                        <ul class="d-flex align-items-center ps-0 mb-0 list-unstyled">
+                            <li>
+                                <a href="/Login" class="search-btn login"><i class="ri-account-circle-line"></i> Log in</a>
+                            </li>
+                            <li>
+                                <a href="/Register" class="default-btn">Get Started <i class="ri-arrow-right-up-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar Area -->
+        </div>
+
+        <!-- Start Mobile Navbar Area -->
+        <div class="mobile-navbar offcanvas offcanvas-end border-0" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
+            <div class="offcanvas-header">
+                <a href="#home" class="logo d-inline-block">
+                    <img src="assets/images/logo.svg" alt="logo">
+                </a>
+
+                <button type="button" class="close-btn bg-transparent position-relative lh-1 p-0 border-0" data-bs-dismiss="offcanvas" aria-label="close">
+                    <i class="ri-close-fill"></i>
+                </button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="mobile-menu">
+                    <li class="mobile-menu-list active without-icon">
+                        <a class="nav-link" href="#home">
+							Home
+						</a>
+                    </li>
+
+                    <li class="mobile-menu-list without-icon">
+                        <a class="nav-link" href="#how-it-works">
+							How It Works
+						</a>
+                    </li>
+                
+                    <li class="mobile-menu-list without-icon">
+                        <a class="nav-link" href="#features">
+							Features
+                        </a>
+                    </li>
+					
+					<li class="mobile-menu-list without-icon">
+                        <a class="nav-link" href="#about-us">
+							About Us
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list without-icon">
+                        <a href="./index.html#contact" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Others options -->
+                <div class="others-options">
+                    <ul class="d-flex align-items-center ps-0 mb-0 list-unstyled">
+                        <li>
+                            <a href="/Login class="search-btn login"><i class="ri-account-circle-line"></i> Log in</a>
+                        </li>
+                        <li>
+                            <a href="/Register" class="default-btn">Get Started <i class="ri-arrow-right-up-line"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Mobile Navbar Area -->
+
+
+        <!-- Start Main Banner Area -->
+        <div id="home" 
+            class="main-banner-area overflow-hidden position-relative" 
+            style="background-image: url(assets/images/hero/hero-image-1.svg)"
+        >
+            <div class="container-fluid side-padding pb-100 hero-section">
+                <div class="animated-icons">
+                    <div class="icons-cont">
+                        <div class="icon">
+                            <img class="tick animate-x" src="./assets/images/animated-icons/tick.svg" alt="">
+                            <img src="./assets/images/animated-icons/men.svg" alt="">
+                        </div>
+                        <img class="arrow" src="./assets/images/animated-icons/arrow.svg" alt="">
+                        <img class="icon bank1 animate-y" src="./assets/images/animated-icons/bank.svg" alt="">
+                        <img class="icon bank2 animate-y" src="./assets/images/animated-icons/bank.svg" alt="">
+                        <img class="icon dollar1 animate-x" src="./assets/images/animated-icons/dollar.svg" alt="">
+                        <img class="icon dollar2 animate-y" src="./assets/images/animated-icons/dollar.svg" alt="">
+                        <img class="icon dollar3 animate-x" src="./assets/images/animated-icons/dollar.svg" alt="">
+                        <img class="icon secure animate-y" src="./assets/images/animated-icons/secure.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-12" data-cues="slideInRight" data-duration="800">
+                        <div class="main-banner-content">
+                            <span class="sub-t">EVEREST REMIT</span>
+                            <h1>Facilitating<span><img src="assets/images/svg/your.svg" alt="image"> Swift</span> Money Transfers To Nepal</h1>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-12" data-cues="slideInLeft" data-duration="800">
+						<div class="banner-card bg-color-ffffff radius-30 position-relative">
+							<div class="money-form">
+							  <div class="form-bg">
+								<div class="gifoverlay" style="display: none;">
+								  <div id="status"></div>
+								</div>
+								<div class="row">
+								  <div class="col">
+									<div class="form-group- clearfix">
+									  <div id="step-1" class="wizard-content amttab">
+										<div class="row justify-content-center">
+										  <div class="col">
+											<div class="row">
+											  <div class="col">
+												<div class="row">
+												  <div class="col-md-12 send-form">
+													<div class="form-group clearfix">
+													  <div class="wizard-row field-row currency1">
+														<div class="row align-items-center">
+														  <div class="col">
+															<h5>You send</h5>
+															<input class="form-control blue" onkeypress="return isNumberKey(event);" id="amountfrom" type="text" value="1000" fdprocessedid="gylbi">
+														  </div>
+														  <div class="col col-auto snd-btn">
+															<div class="ui fluid search selection dropdown custom-drop fromrecipient-box">
+															  <input type="hidden" name="currencyfrom" id="currencyfrom" value="AUD">
+															  <input class="search" tabindex="0" fdprocessedid="cz6sf">
+															  <div class="text symbolfrom">
+																<i class="au flag"></i>AUD <span>Australian Dollar</span>
+															  </div>
+															  <i class="dropdown icon"></i>
+															  <div class="menu lg-menu cfrom" tabindex="-1">
+																<div onclick="return CC(this,'from',1,0);" class="item active selected" data-cntid="4" data-id="37" data-value="AUD">
+																  <i class="au flag"></i>AUD <span>Australian Dollar</span>
+																</div>
+															  </div>
+															</div>
+														  </div>
+														</div>
+														<div class="alert alert-danger hide"></div>
+													  </div>
+													</div>
+												  </div>
+												  <div class="col-md-12">
+													<ul class="calculation-values-wrap seecalc">
+													  <li class="calculation-breakdown toggle-calc seetop1 hide" style="display: list-item;">
+														<a href="javascript:void(0);">See calculation</a>
+														<span class="cal-divider"></span>
+													  </li>
+													  <li class="calculation-breakdown-value hideli seetop" style="display: list-item;">
+														<span id="companyfee">0 AUD</span>
+														<span>
+														  <div class="ui selection dropdown" tabindex="-1">
+															<input type="hidden" id="hdnpaymenttype" value="2">
+															<i class="dropdown icon"></i>
+															<div class="text">Account Transfer</div>
+															<div class="menu lg-menu drppaymenttypes" tabindex="-1">
+															  <div class="item active selected" onclick="return CC(this,'from',0,1);" data-value="2" data-text="Account Transfer">Account Transfer <span>0 AUD fee</span>
+															  </div>
+															</div>
+														  </div> fee
+														</span>
+														<div class="cal-divider"></div>
+													  </li>
+													  <li class="calculation-breakdown-value hideli seetop" style="display: list-item;">
+														<span id="ourtotalfee">0 AUD</span>
+														<span class="normal-text">Our fee</span>
+														<div class="cal-divider"></div>
+													  </li>
+													  <li class="calculation-breakdown-value seetop twfeecontainer" style="display: none;">
+														<span id="twfee"></span>
+														<span class="normal-text">Transfer Wise fee</span>
+														<div class="cal-divider"></div>
+													  </li>
+													  <li class="calculation-breakdown-value cross-ico">
+														<span class="d-flex">1 AUD = <span id="convertrate">88</span>NPR </span>
+														<span id="guaranteedrates" class="normal-text guaranteedrate-">Conversion Rate</span>
+														<div class="ui special popup">
+														  <div class="header">Conversion Rate</div>
+														  <p class="content" id="guaranteedratecontent">You’ll get this rate as long as we receive your 1000 AUD within the next 24 hours.</p>
+														  <a href="javascript:void(0);">Learn More</a>
+														</div>
+														<div class="cal-divider"></div>
+													  </li>
+													  <li class="calculation-breakdown-value minus-ico">
+														<span>
+														  <strong id="fees" >5 AUD</strong>
+														  <!-- <br>
+														  <strong id="feess" class="fees_t">Special offer</strong> -->
+														</span>
+														<span class="normal-text">
+														  Total Fees
+														</span>
+														<div class="cal-divider"></div>
+													  </li>
+													  <li class="calculation-breakdown-value equal-val">
+														<span id="convertamount">995.00 AUD</span>
+														<span class="normal-text">Total amount will convert</span>
+														<div class="cal-divider"></div>
+													  </li>
+													</ul>
+												  </div>
+												  <div class="col-md-12">
+													<div class="form-group clearfix">
+													  <div class="wizard-row field-row currency2">
+														<div class="row align-items-center">
+														  <div class="col">
+															<h5>Recipient gets</h5>
+															<input class="form-control green" type="text" onkeypress="return isNumberKey(event);" value="89520.00" id="amountto" fdprocessedid="p2kxzw">
+															<!-- You Can Add Class lock to display Lock icon-->
+														  </div>
+														  <div class="col col-auto snd-btn">
+															<div class="ui fluid search selection dropdown recipient-box custom-drop">
+															  <input type="hidden" name="currencyto" id="currencyto" value="NPR">
+															  <input class="search" tabindex="0" fdprocessedid="zwewga">
+															  <div class="text symbolto">
+																<i class="np flag"></i>NPR <span>Nepalese Rupee</span>
+															  </div>
+															  <i class="dropdown icon"></i>
+															  <div class="menu lg-menu cto" tabindex="-1">
+																<div onclick="return CC(this,'to',1,0);" class="item active selected" data-cntid="8" data-id="19" data-value="NPR">
+																  <i class="np flag"></i>NPR <span>Nepalese Rupee</span>
+																</div>
+															  </div>
+															</div>
+														  </div>
+														</div>
+														<div class="alert alert-danger hide"></div>
+													  </div>
+													</div>
+												  </div>
+												</div>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="row m-0 mt-2 sm-margin send-bottom">
+								  <div class="col">
+									<p class="mb-0 hide" id="processingdays">Should arrive <strong>by Jun 5</strong>
+									</p>
+									<p class="hide"> By continuing you accept our <a href="/Terms">Terms of Use</a>
+									</p>
+									<a type="" class="btn w-100 default-btn mt-3" href="/Login">Start Transaction</a>
+								  </div>
+								</div>
+							  </div>
+							  <!--main_bank-->
+							</div>
+						</div><!--banner-card-->                         
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-area">
+                <div class="container-fluid side-padding">
+                    <div class="row g-4 justify-content-center" data-cues="slideInUp" data-duration="800">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="banner-card bg-color-ffffff radius-30">
+                                <div class="flex-warp position-relative">
+                                    <i>
+                                        <!-- <img src="./assets/images/icons/one-stop-solution.png" alt="image"> -->
+                                        <img src="assets/images/icons/trusted-banking-alliances.png" alt="image">
+                                    </i>
+                                    <h3>Enhanced Financial Security</h3>
+                                </div>
+								<p class="mb-0">2FA and constant monitoring protect transactions and ensure safety.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="banner-card part-two bg-color-9edd05 radius-30 position-relative">
+                                <div class="flex-warp position-relative">
+                                    <i>
+                                        <img src="assets/images/icons/transparent-pricing.png" alt="image">
+                                    </i>
+                                    <h3>Transparent Pricing</h3>
+                                </div>
+                                <p class="mb-0">Competitive AUD to NPR exchange rates with no hidden fees.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="banner-card part-three- bg-color-ffffff radius-30 position-relative">
+                                <div class="flex-warp position-relative">
+                                    <i>
+                                        <!-- <img src="assets/images/icons/trusted-banking-alliances.png" alt="image"> -->
+                                        <img src="./assets/images/icons/group.png" alt="image">
+                                    </i>
+                                    <h3>Dedicated Support Team</h3>
+                                </div>
+								<p class="mb-0">Available 24/7 to assist with all queries and concerns.</p>
+                                <!-- <i class="flaticon-star-5 star-5 moveHorizontal_reverse"></i> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Banner Area -->
+		
+		<!-- Start How It Works Area -->
+        <div id="how-it-works" class="how-it-works-area bg-color-0c3a30 pt-120 pb-120">
+            <div class="container">
+                <div class="about-top mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-7" data-cues="slideInRight" data-duration="800">
+                            <div class="section-heading mb-0">
+                                <span class="sub-title text-white">HOW IT WORKS</span>
+                                <h2 class="text-white mb-0">Sending Money Is <span><img src="assets/images/svg/lines-1.svg" alt="image">Easier</span> Than Ever With Everest Remit</h2>
+                                <!-- <h2 class="text-white mb-0">Sending Money <span><img src="assets/images/svg/lines-1.svg" alt="image">Securely</span> <br>  Across Borders to Nepal</h2> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5" data-cues="slideInLeft" data-duration="800">
+                            <div class="content">
+                                <p class="text-white">Follow our 4-step process to send money to Nepal from Australia. From setting up an account to successfully carrying out the money transfer, our portal is designed for your convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="works-btn">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="crea-tab" data-bs-toggle="tab" data-bs-target="#crea-tab-pane" type="button" role="tab" aria-controls="crea-tab-pane" aria-selected="true">Set up your account <i class="ri-arrow-right-up-line"></i></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="use-tab" data-bs-toggle="tab" data-bs-target="#use-tab-pane" type="button" role="tab" aria-controls="use-tab-pane" aria-selected="false">Mention transfer details <i class="ri-arrow-right-up-line"></i></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="enj-tab" data-bs-toggle="tab" data-bs-target="#enj-tab-pane" type="button" role="tab" aria-controls="enj-tab-pane" aria-selected="false">Make the payment <i class="ri-arrow-right-up-line"></i></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="mob-tab" data-bs-toggle="tab" data-bs-target="#mob-tab-pane" type="button" role="tab" aria-controls="mob-tab-pane" aria-selected="false">Track the transfer <i class="ri-arrow-right-up-line"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-12">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="crea-tab-pane" role="tabpanel" aria-labelledby="crea-tab" tabindex="0">
+                                <div class="row g-4" data-cues="slideInUp" data-duration="200">
+                                    <div class="col-lg-6">
+                                        <div class="single-works-image">
+                                            <img src="./assets/images/howItWorks/phn1.png" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-works-card bg-color-29594b radius-30">
+                                            <!-- <i class="flaticon-payment-method-1 method"></i> -->
+                                             <div class="method">
+                                                <img src="./assets/images/icons/setup-account.png" alt="">
+                                             </div>
+                                            <h3 class="text-white">Set up your account</h3>
+                                            <p class="text-white">Start by entering your phone number and email address to create an account on the Everest Remit portal.</p>
+                                            <a href="/Register" class="default-btn two">Sign Up Now <i class="ri-arrow-right-up-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="use-tab-pane" role="tabpanel" aria-labelledby="use-tab" tabindex="0">
+                                <div class="row" data-cues="slideInUp" data-duration="200">
+                                    <div class="col-lg-6">
+                                        <div class="single-works-image">
+                                            <img src="./assets/images/howItWorks/phn2.png" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-works-card bg-color-29594b radius-30">
+                                            <!-- <i class="flaticon-tablet method"></i> -->
+                                            <div class="method">
+                                                <img src="./assets/images/icons/mention-transfer-details.png" alt="">
+                                             </div>
+                                            <h3 class="text-white">Mention transfer details</h3>
+                                            <p class="text-white">Enter the recipient's name, address, phone number, and bank account information to initiate the transfer.</p>
+                                            <a href="/Register" class="default-btn two">Sign Up Now <i class="ri-arrow-right-up-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="enj-tab-pane" role="tabpanel" aria-labelledby="enj-tab" tabindex="0">
+                                <div class="row" data-cues="slideInUp" data-duration="200">
+                                    <div class="col-lg-6">
+                                        <div class="single-works-image">
+                                            <img src="./assets/images/howItWorks/phn3.png" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-works-card bg-color-29594b radius-30">
+                                            <!-- <i class="flaticon-payment-method-2 method"></i> -->
+                                            <div class="method">
+                                                <img src="./assets/images/icons/make-the-payment.png" alt="">
+                                             </div>
+                                            <h3 class="text-white">Make the payment</h3>
+                                            <p class="text-white">Mention the amount you wish to send and transfer the funds; after that, we will handle the rest.</p>
+                                            <a href="/Register" class="default-btn two">Sign Up Now <i class="ri-arrow-right-up-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="mob-tab-pane" role="tabpanel" aria-labelledby="mob-tab" tabindex="0">
+                                <div class="row"  data-cues="slideInUp" data-duration="200">
+                                    <div class="col-lg-6">
+                                        <div class="single-works-image">
+                                            <img src="./assets/images/howItWorks/phn4.png" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-works-card bg-color-29594b radius-30">
+                                            <!-- <i class="flaticon-businessman-4 method"></i> -->
+                                            <div class="method">
+                                                <img src="./assets/images/icons/track-transfer.png" alt="">
+                                             </div>
+                                            <h3 class="text-white">Track the transfer</h3>
+                                            <p class="text-white">Track the real-time status of your transfer online or via the mobile application and even receive notifications at every step of the way.</p>
+                                            <a href="/Register" class="default-btn two">Sign Up Now <i class="ri-arrow-right-up-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End How It Works Area -->
+
+        <!-- Start Services Area -->
+        <div id="features" class="services-area pt-120  position-relative overflow-hidden">
+            <div class="container left-padding">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-lg-12" data-cues="slideInLeft" data-duration="800">
+                        <div class="section-heading position-relative mb-0">
+                            <span class="sub-title">IMPRESSIVE CAPABILITIES!</span>
+                            <!-- <h2>Syncing <span><img src="assets/images/svg/lines-2.svg" alt="">Your</span> Finances</h2> -->
+                            <h2>Key <span><img src="assets/images/svg/lines-2.svg" alt="">features</span> of our remittance services</h2>
+                            <p class="mb-5">Here are the features of remittance services that make your money transfer experience not just the best, but the very best.</p>
+
+                            <a href="/Register" class="default-btn two">Make Instant Transfers <i class="ri-arrow-right-up-line"></i></a>
+
+                            <div class="services-btn">
+                                <div class="swiper-button-next">
+                                    <i class="ri-arrow-right-line"></i>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <i class="ri-arrow-left-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-12">
+                        <div class="services-items">
+                            <div class="swiper services-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="services-card position-relative">
+                                            <img class="radius-30" src="assets/images/service/no-more-hassle.jpg" alt="image">
+                                            <div class="services-card-body bg-color-fffaeb radius-30">
+                                                <!-- <i class="flaticon-businessman-5 businessman"></i> -->
+                                                <div class="businessman">
+                                                    <img src="./assets/images/icons/no-more-hassle.png" alt="">
+                                                 </div>
+                                                <h3>No More Hassle
+                                                </h3>
+                                                <p class="mb-0">Simply book your money transfer with Everest Remit online from your phone or laptop.</p>
+                                                <!-- <a href="#0" class="read-more">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="services-card position-relative">
+                                            <img class="radius-30" src="assets/images/service/tailored-exchange-rates.jpg" alt="image">
+                                            <div class="services-card-body bg-color-fffaeb radius-30">
+                                                <!-- <i class="flaticon-browser-1 businessman"></i> -->
+                                                <div class="businessman">
+                                                    <img src="./assets/images/icons/tailored-exchange-rates.png" alt="">
+                                                 </div>
+                                                <h3>Tailored Exchange Rates
+                                                </h3>
+                                                <p class="mb-0">Offer competitive exchange rates tailored to your transaction to maximise the value of your transfer.</p>
+                                                <!-- <a href="#0" class="read-more">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="services-card position-relative">
+                                            <img class="radius-30" src="assets/images/service/secure-and-safe.jpg" alt="image">
+                                            <div class="services-card-body bg-color-fffaeb radius-30">
+                                                <!-- <i class="flaticon-laptop-1 businessman"></i> -->
+                                                <div class="businessman">
+                                                    <img src="./assets/images/icons/secure-safe.png" alt="">
+                                                 </div>
+                                                <h3>Secure And Safe
+                                                </h3>
+                                                <p class="mb-0">Utilise the latest authentication technologies and fraud monitoring functionalities for safe transactions. </p>
+                                                <!-- <a href="#0" class="read-more">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="services-card position-relative">
+                                            <img class="radius-30" src="assets/images/service/speedy-transfers.jpg" alt="image">
+                                            <div class="services-card-body bg-color-fffaeb radius-30">
+                                                <!-- <i class="flaticon-businessman-5 businessman"></i> -->
+                                                <div class="businessman">
+                                                    <img src="./assets/images/icons/speedy-transfers.png" alt="">
+                                                 </div>
+                                                <h3>Speedy Transfers
+                                                </h3>
+                                                <p class="mb-0">With Everest Remit, your money will reach your loved ones in less than 24 hours after completing the transfer.</p>
+                                                <!-- <a href="#0" class="read-more">Read More <i class="ri-arrow-right-up-line"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Services Area -->
+
+        <!-- Start About Us Area -->
+        <div id="about-us" class="about-us-area pb-120 pt-120 overflow-hidden">
+            <div class="container">
+                <div class="about-top mb-5">
+                    <div class="row align-items-center" data-cues="slideInUp" data-duration="800">
+                        <div class="col-lg-7 col-md-7">
+                            <div class="section-heading mb-0">
+                                <span class="sub-title">ABOUT US</span>
+                                <!-- <h2 class="mb-0">Sending Love and Money Across Borders To <span><img src="assets/images/svg/lines-3.svg" alt="image">Nepal</span></h2> -->
+                                <h2 class="mb-0">Sending Money <span><img src="assets/images/svg/lines-1.svg" alt="image">Securely</span>  Across Borders to Nepal</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="content">
+                                <p>At Everest Remit, we're more than just a platform we're your partner that ensures your money reaches families and loved ones safely and easily.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-info bg-color-edf1ee radius-30">
+                    <div class="row g-4">
+                        <div class="col-lg-6" data-cues="slideInRight" data-duration="800">
+                            <div class="about-content">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="miss-tab" data-bs-toggle="tab" data-bs-target="#miss-tab-pane" type="button" role="tab" aria-controls="miss-tab-pane" aria-selected="true">Our Mission</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="vis-tab" data-bs-toggle="tab" data-bs-target="#vis-tab-pane" type="button" role="tab" aria-controls="vis-tab-pane" aria-selected="false">Our Vision</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="qua-tab" data-bs-toggle="tab" data-bs-target="#qua-tab-pane" type="button" role="tab" aria-controls="qua-tab-pane" aria-selected="false">Our Core Values</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="miss-tab-pane" role="tabpanel" aria-labelledby="miss-tab" tabindex="0">
+                                        <div class="title">
+                                            <h2>Enabling Seamless and Secure Money Transfers to Nepal</h2>
+                                            <p class="mb-0">From day one, we have remained committed to financially connecting migrants working tirelessly in Australia with their families in Nepal.</p>
+                                        </div>
+        
+                                        <ul class="check">
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Enhance efficiency in international money transfers
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Fostering Growth Through Reliable Transfers
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Offer tailored services as per the Nepalese needs
+                                            </li>
+                                        </ul>
+        
+                                        <a href="/Register" class="default-btn mt-5">Send Money Home <i class="ri-arrow-right-up-line"></i></a>
+                                    </div>
+                                    <div class="tab-pane fade" id="vis-tab-pane" role="tabpanel" aria-labelledby="vis-tab" tabindex="0">
+                                        <div class="title">
+                                            <h2>To Be the Most Reliable Remittance Service Provider</h2>
+                                            <p class="mb-0">We strive to provide effortless, efficient, and trusted money transfers, ensuring a seamless experience for every customer.</p>
+                                        </div>
+        
+                                        <ul class="check">
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Simplify remittance for every user
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Bridge financial gaps across borders
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Build trust among customers via exceptional service
+                                            </li>
+                                        </ul>
+        
+                                        <a href="/Register" class="default-btn mt-5">Send Money Home <i class="ri-arrow-right-up-line"></i></a>
+                                    </div>
+                                    <div class="tab-pane fade" id="qua-tab-pane" role="tabpanel" aria-labelledby="qua-tab" tabindex="0">
+
+                                        <div class="title">
+                                            <h2>Driven by Innovation and Integrity In Our Remittance Services</h2>
+                                            <p class="mb-0">Our core values drive our efforts to deliver secure, innovative, and customer-centric remittance solutions.</p>
+                                        </div>
+        
+                                        <ul class="check">
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Uphold integrity in all transactions
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Ensure safety with advanced technology
+                                            </li>
+                                            <li>
+                                                <i class="ri-check-line"></i>
+                                                Lead the remittance industry with innovation
+                                            </li>
+                                        </ul>
+        
+                                        <a href="/Register" class="default-btn mt-5">Send Money Home <i class="ri-arrow-right-up-line"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-cues="slideInLeft" data-duration="800">
+                            <div class="about-image bg-color-ffffff radius-30">
+                                <img class="about-image-1" src="assets/images/about/about-1.jpg" alt="image">
+                                <img class="about-image-2" src="assets/images/about/about-2.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Us Area -->
+
+        <!-- Start Why Choose Us Area -->
+        <div class="why-choose-us-area mb-5 overflow-hidden">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12" data-cues="slideInRight" data-duration="800">
+                        <div class="choose-image position-relative">
+                            <img class="radius-30" src="assets/images/about/about-image-2.jpg" alt="image">
+                            <!-- <div class="paly-content">
+                                <a data-fslightbox="one" href="https://www.youtube.com/watch?v=Y7cpCDlRfV0" class="popup-btn">
+                                    <i class="flaticon-play-buttton"></i>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" data-cues="slideInLeft" data-duration="800">
+                        <div class="why-choose-us-content">
+                            <div class="section-heading mb-0">
+                                <span class="sub-title">WHY CHOOSE US?</span>
+                                <h2>What Makes Everest Remit <span><img src="assets/images/svg/lines-1.svg" alt="image">Stand Out</span> in Remittance?</h2>
+                                <p class="mb-5">Everest Remit is the preferred choice for thousands of Nepalese migrants, offering reliable, fast, and world-class remittance services.</p>
+                                <a href="/Register" class="default-btn two">Create Your Account <i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Why Choose Us Area -->
+
+        <!-- Start Choose Card Area -->
+        <div class="choose-card-area ">
+            <div class="container">
+                <div class="row g-4 justify-content-center" data-cues="slideInUp" data-duration="800">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="choose-card bg-color-fffaeb radius-30">
+                            <!-- <i class="flaticon-money-5"></i> -->
+                            <i>
+                                <img src="./assets/images/icons/licenced.png" alt="">
+                             </i>
+                            <h3>Licenced</h3>
+                            <p>We are an authorised remittance provider that adheres to all necessary laws and regulations, offering a safe remittance experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="choose-card bg-color-fffaeb radius-30">
+                            <!-- <i class="flaticon-dollar-symbol-1"></i> -->
+                            <i>
+                                <img src="./assets/images/icons//user-friendly-platform.png" alt="">
+                             </i>
+                            <h3>User-Friendly Platform</h3>
+                            <p>Both the mobile application and web platform are designed to make the remittance process easier for everyone.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="choose-card bg-color-fffaeb radius-30">
+                            <!-- <i class="flaticon-tablet"></i> -->
+                            <i>
+                                <img src="./assets/images/icons/support.png" alt="">
+                             </i>
+                            <h3>24/7 Support</h3>
+                            <p>Our customer care executives are available around the clock to assist you with any query related to the platform. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Choose Card Area -->  
+
+
+        <!-- Start Faq Area -->
+        <div id="contact" class="faq-area pt-120 pb-120 overflow-hidden">
+            <div class="container">
+                <div class="row g-4 align-items-center-">
+                    <div class="col-lg-6 col-md-12" data-cues="slideInRight" data-duration="800">
+                        <div class="contact-form bg-color-9edd05 radius-30">
+							<div class="section-heading">
+								<h2 class="m-0 text-white">Always Available, Get in Touch Easily</h2>
+							</div>
+                            <form>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+									<div class="col-md-12">
+										<input type="text" class="form-control" placeholder="Email">
+									</div>
+									<div class="col-md-12">
+										<input type="text" class="form-control" placeholder="Phone">
+									</div>
+									<div class="col-md-12">
+										<textarea class="form-control textarea" placeholder="Write A Message"></textarea>
+									</div>
+								</div>
+
+								<button type="submit" class="default-btn two">Send Message <i class="ri-arrow-right-up-line"></i></button>
+							</form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" data-cues="slideInLeft" data-duration="800">
+                        <div class="faq-content">
+							<div class="section-heading">
+								<!-- <span class="sub-title">FAQ</span> -->
+								<h2>Frequently <span><img src="assets/images/svg/lines-4.svg" alt="image">Asked</span> Questions</h2>
+
+								<!-- <p>With a robust suite of products ranging from digital banking and payment processing to wealth management and blockchain applications.</p> -->
+							</div>
+                            <div class="accordion" id="accordionFAQ">
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBang" aria-expanded="false" aria-controls="collapseBang">
+                                        What is Everest Remit?
+                                    </button>
+                                    <div id="collapseBang" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>Everest Remit is a leading remittance service provider, offering top-notch money transfer services from Australia to Nepal. We aim to offer safer, secure, and reliable service at much lower service charges and higher exchange rates for our customers.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSunam" aria-expanded="false" aria-controls="collapseSunam">
+                                        What details do I need to provide for sign-up?
+                                    </button>
+                                    <div id="collapseSunam" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p> To sign up for our remittance services, you have to provide us with the following:</p>
+                                            <ul>
+                                                <li>Valid photo ID</li>
+                                                <li>Active phone number</li>
+                                                <li>Email address</li>
+                                                <li>Address proof documents</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDinaj" aria-expanded="false" aria-controls="collapseDinaj">
+                                        How to use Everest Remit?
+                                    </button>
+                                    <div id="collapseDinaj" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>It's quite simple to use our services. You can register online using your computer, providing basic details, and then follow the prompts.</p>
+                                            <p>Moreover, you can download our mobile application for a more convenient and on-the-go transfer experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePage" aria-expanded="false" aria-controls="collapsePage">
+                                        How Can I Make the Transfer?
+                                    </button>
+                                    <div id="collapsePage" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>To ensure the security and reliability of our services, we only accept bank transfers. You can transfer the funds at the time of order initiation through the provided bank transfer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLoan" aria-expanded="false" aria-controls="collapseLoan">
+                                        What Do You Do With The Gathered User Details?
+                                    </button>
+                                    <div id="collapseLoan" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>It is important for us to collect users' details to verify their identity and ensure successful transfers. Your privacy and data security are our top priorities. We follow all the security protocols to handle all personal information in order to maintain confidentiality.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
+                                        Are there any transfer limits?
+                                    </button>
+                                    <div id="collapseScore" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                        <div class="accordion-body">
+                                            <p>Yes, there are limitations to transactions that can be carried out within a single transfer or a particular time frame. However, if you have a valid legal reason for the transfer, you can provide us with supporting documents, such as payslips or income statements, to request an increase in your limit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Faq Area -->
+
+        <!-- Start App Area -->
+        <div class="app-area pb-120 overflow-hidden">
+            <div class="container">
+                <div class="download-area bg-color-edf1ee radius-30">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6 col-md-12" data-cues="slideInRight" data-duration="800">
+                            <div class="section-heading mb-0">
+                                <span class="sub-title">DOWNLOAD OUR APP!</span>
+                                <!-- <h2>Experience <span><img src="assets/images/svg/lines-1.svg" alt="image">The</span> Future Of Banking</h2> -->
+                                <h2>Send Money To Nepal With Just <span><img src="assets/images/svg/lines-1.svg" alt="image">A Tap</span></h2>
+                                <p class="mb-5">The Everest Remit App is available now on the Google Play Store, Apple App Store. You can now send money to Nepal using your phone from anywhere at any time.</p>
+
+                                <div class="app-btn">
+                                    <a href="#0" target="_blank" class="me-3">
+                                        <img class="rounded-3" src="assets/images/app/app-image-2.jpg" alt="image">
+                                    </a>
+                                    <a href="#0" target="_blank">
+                                        <img class="rounded-3" src="assets/images/app/app-image-3.jpg" alt="image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12" data-cues="slideInLeft" data-duration="800">
+                            <div class="app-image">
+                                <img class="radius-30" src="assets/images/app//app-image.jpg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End App Area -->
+
+        <!-- Start Footer Area -->
+        <div class="footer-area bg-color-0c3a30 pt-120">
+            <div class="container">
+                <div class="row" data-cues="slideInUp" data-duration="800">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-weight">
+                            <h3 class="text-white">Get In Touch</h3>
+
+                            <ul class="get-touch">
+                                <li>
+                                    <img src="assets/images/svg/map.svg" alt="image">
+                                    <span class="text-white"><b>Location:</b></span>
+                                    <a href="#0" target="_blank">xyz</a>
+                                </li>
+                                <li>
+                                    <img class="phone" src="assets/images/svg/mail.svg" alt="image">
+                                    <span class="text-white"><b>Email:</b></span>
+                                    <a href="#0"><span class="__cf_email__" data-cfemail="deb6bbb2b2b19eb8b7b0aab1f0bdb1b3">[email&#160;protected]</span></a>
+                                </li>
+                                <li>
+                                    <img class="phone" src="assets/images/svg/phone.svg" alt="image">
+                                    <span class="text-white"><b>Phone:</b></span>
+                                    <a href="#0">000 000 000</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-weight part-two">
+                            <h3 class="text-white">Quick Links</h3>
+
+                            <ul class="service-link">
+                                <li>
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#how-it-works">How It Works</a>
+                                </li>
+                                <li>
+                                    <a href="#features">Features</a>
+                                </li>
+                                <li>
+                                    <a href="#about-us">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-weight part-three">
+                            <h3 class="text-white">Legal</h3>
+
+                            <ul class="service-link">
+                                <li>
+                                    <a href="./privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="./terms-conditions.html">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#0">User Agreement</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Social Media Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Modern Slavery Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Cookie Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Mobile App Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Mobile App Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-weight">
+                            <h3 class="text-white">Follow Us</h2>
+                            <ul class="social">
+                                <li>
+                                    <a href="#0" target="_blank">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" target="_blank">
+                                        <i class="ri-twitter-x-line"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" target="_blank">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" target="_blank">
+                                        <i class="ri-linkedin-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Area -->
+
+        <!-- Start Copyright Area -->
+        <div class="copyright-area bg-color-0c3a30">
+            <div class="container">
+                <div class="copyright-border">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright © <span>Everest Remit</span>. All Rights Reserved</p>
+                        </div>
+                        <!-- <div class="col-lg-4 col-md-6">
+                            <div class="copy-image" data-cues="zoomIn" data-duration="700">
+                                <a href="index.html" class="d-block">
+                                    <img src="assets/images/white-logo.png" alt="image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <ul>
+                                <li>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="terms-conditions.html">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright Area -->
+
+        <!-- Go top Btn -->
+        <div class="go-top">
+            <i class="ri-arrow-up-fill"></i>
+        </div>
+        <!-- Go top Btn End -->
+
+        <!-- JS Files -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/fslightbox.min.js"></script>
+        <script src="assets/js/smooth-scroll.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/semantic.min.js"></script>
+		<script>
+		  $(document).ready(function() {
+			$(".fromrecipient-box").click(function() {
+			  $(".fromrecipient-box").toggleClass("active visible");
+			  $(".menu.cfrom").toggleClass("transition visible");
+			});
+		  });
+		  $(document).ready(function() {
+			$(".recipient-box").click(function() {
+			  $(".recipient-box").toggleClass("active visible");
+			  $(".menu.cto").toggleClass("transition visible");
+			});
+		  });
+		</script>
+    </body>
+
+</html>
